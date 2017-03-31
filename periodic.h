@@ -10,8 +10,8 @@ struct periodic_task_attr;
 
 int periodic_task_init(void);
 int periodic_task_create(struct periodic_task *,
-                    const struct periodic_task_attr *);
+				const struct periodic_task_attr *);
 int periodic_task_change(struct periodic_task *,
-                    const struct periodic_task_attr *);
+				const struct periodic_task_attr *);
 int periodic_task_delete(struct periodic_task *);
 #endif /* __PERIODIC_H__ */
